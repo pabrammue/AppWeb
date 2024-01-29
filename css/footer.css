@@ -1,0 +1,35 @@
+#footerContainer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#footerContainer div {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#footerContainer h3 {
+    margin-bottom: 10px;
+}
+
+#footerContainer ul {
+    list-style: none;
+    padding: 0;
+}
+
+#footerContainer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#footerContainer ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#footerContainer ul li a:hover {
+    color: #ccc;
+}
