@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
 }
 
 header {
@@ -9,6 +8,9 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
 
 nav ul {
@@ -51,4 +53,19 @@ nav ul ul li a {
 section {
     padding: 20px;
     text-align: center;
+}
+
+.icon{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction:row;
+}
+
+.centrado{
+    align-items: center;
+}
+
+ul li a:hover {
+    color: #ccc;
 }

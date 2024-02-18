@@ -23,3 +23,20 @@ nav ul li {
     display: inline;
     margin-right: 20px;
 }
+
+pre{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    font-size:x-large;
+    padding: 20px;
+}
+
+main{
+    display: flex;
+    background-color: #777;
+}
+
+.controller{
+    display: flex;
+    justify-content: center;
+}

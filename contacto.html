@@ -11,10 +11,11 @@
     <header>
         <iframe src="header.html" width="100%" height="160px" frameborder="0"></iframe>
     </header>
+    <main>
     <section class="main">
         <div class="container">
             <h2>Contacto</h2>
-            <form action="enviado.html" method="post">
+            <form method="post">
                 <div class="form-group">
                     <label for="nombre">Nombre:</label>
                     <input type="text" id="nombre" name="nombre" required>
@@ -27,10 +28,11 @@
                     <label for="mensaje">Mensaje:</label>
                     <textarea id="mensaje" name="mensaje" required></textarea>
                 </div>
-                <button type="submit">Enviar</button>
             </form>
+            <a href="enviado.html"><button type="submit">Enviar</button></a>
         </div>
     </section>
+    </main>
     <footer>
         <iframe src="footer.html" width="100%" height="150px" frameborder="0"></iframe>
     </footer>
